@@ -1,11 +1,12 @@
 package com.example.company.service;
 
-import com.example.company.mapper.SkillMapper;
-import com.example.company.model.Skill;
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.List;
+import com.example.company.mapper.SkillMapper;
+import com.example.company.model.Skill;
 
 @Service
 public class SkillService {
