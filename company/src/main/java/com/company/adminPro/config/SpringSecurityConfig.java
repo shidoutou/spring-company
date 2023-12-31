@@ -1,4 +1,4 @@
-package com.example.company.config;
+package com.company.adminPro.config;
 
 import java.util.Arrays;
 
@@ -24,7 +24,10 @@ public class SpringSecurityConfig {
     @Bean
     SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         http
-                .cors(cors -> cors.configurationSource(corsConfigurationSource()));
+                .cors(cors -> cors.configurationSource(corsConfigurationSource()))
+                // .csrf(csrf -> csrf.disable())
+                .authorizeHttpRequests(authz -> authz
+                        .anyRequest().permitAll());
 
         return http.build();
     }

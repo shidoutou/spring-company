@@ -1,18 +1,20 @@
-package com.example.company.service;
+package com.company.adminPro.service;
 
 import java.util.List;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.example.company.mapper.SkillMapper;
-import com.example.company.model.Skill;
+import com.company.adminPro.mapper.SkillMapper;
+import com.company.adminPro.model.Skill;
 
 @Service
 public class SkillService {
 
-    @Autowired
-    private SkillMapper skillMapper;
+    private final SkillMapper skillMapper;
+
+    public SkillService(SkillMapper skillMapper) {
+        this.skillMapper = skillMapper;
+    }
 
     public List<Skill> findAll() {
         return skillMapper.findAll();

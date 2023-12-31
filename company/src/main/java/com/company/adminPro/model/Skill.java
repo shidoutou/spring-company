@@ -1,4 +1,4 @@
-package com.example.company.model;
+package com.company.adminPro.model;
 
 import lombok.Data;
 
