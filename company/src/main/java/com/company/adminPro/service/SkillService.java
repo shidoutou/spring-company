@@ -4,6 +4,7 @@ import java.util.List;
 
 import org.springframework.stereotype.Service;
 
+import com.company.adminpro.mapper.SkillMapper;
 import com.company.adminpro.model.Skill;
 
 @Service
