@@ -1,4 +1,4 @@
-package com.company.adminPro.config;
+package com.company.adminpro.config;
 
 import java.util.Arrays;
 

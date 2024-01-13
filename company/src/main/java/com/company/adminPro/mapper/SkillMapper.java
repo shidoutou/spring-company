@@ -1,10 +1,10 @@
-package com.company.adminPro.mapper;
+package com.company.adminpro.mapper;
 
 import java.util.List;
 
 import org.apache.ibatis.annotations.Mapper;
 
-import com.company.adminPro.model.Skill;
+import com.company.adminpro.model.Skill;
 
 @Mapper
 public interface SkillMapper {

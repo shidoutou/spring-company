@@ -1,4 +1,4 @@
-package com.company.adminPro.controller;
+package com.company.adminpro.controller;
 
 import org.springframework.security.web.csrf.CsrfToken;
 import org.springframework.web.bind.annotation.GetMapping;

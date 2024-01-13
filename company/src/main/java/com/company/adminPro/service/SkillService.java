@@ -1,11 +1,10 @@
-package com.company.adminPro.service;
+package com.company.adminpro.service;
 
 import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import com.company.adminPro.mapper.SkillMapper;
-import com.company.adminPro.model.Skill;
+import com.company.adminpro.model.Skill;
 
 @Service
 public class SkillService {
