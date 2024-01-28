@@ -3,8 +3,8 @@ package com.company.adminpro.model.cases;
 import lombok.Data;
 
 @Data
-public class Case {
+public class CaseLog {
     private Long id;
-    private String skillName;
-    private String description;
+    private String caseId;
+    private String updateDetails;
 }

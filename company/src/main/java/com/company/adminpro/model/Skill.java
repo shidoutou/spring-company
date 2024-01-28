@@ -4,7 +4,7 @@ import lombok.Data;
 
 @Data
 public class Skill {
-    private Long id;
+    private Integer id;
     private String skillName;
     private String description;
 }
